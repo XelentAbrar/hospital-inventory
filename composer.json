@@ -1,0 +1,22 @@
+{
+  "name": "xelent-abrar/hospital-inventory",
+  "description": "A Laravel package to manage inventory.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "XelentAbrar\\HospitalInventory\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "XelentAbrar\\HospitalInventory\\HospitalInventoryServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "^10.0"
+  }
+}
